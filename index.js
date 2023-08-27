@@ -5,8 +5,8 @@ const app = express()
 
 
 app.get("/",(req,res)=>{
-    let name = "JoJo"
-    res.send(`<h1>${name}</h1>`)
+    let animeName = "JoJo"
+    res.send(`<h1>${animeName}</h1>`)
 })
 
 
