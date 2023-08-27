@@ -5,7 +5,8 @@ const app = express()
 
 
 app.get("/",(req,res)=>{
-    res.send("<h1>JoJo</h1>")
+    let name = "JoJo"
+    res.send(`<h1>${name}</h1>`)
 })
 
 
