@@ -12,8 +12,8 @@ app.get("/",(req,res)=>{
 
 app.get("/bleach",(req,res)=>{
 
-    let name = "bleach"
-    res.send(`<h1>${name}</h1>`)
+    let animeName = "bleach"
+    res.send(`<h1>${animeName}</h1>`)
 })
 
 
