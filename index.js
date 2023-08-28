@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  let animeName = "JJBA";
+  let animeName = "JOJO'S BIZZARE ADVENTURE";
   res.send(`<h1>${animeName}</h1>`);
 });
 
